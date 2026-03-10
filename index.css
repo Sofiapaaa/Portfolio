@@ -1,0 +1,54 @@
+.card{
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px aliceblue;
+    padding-top: 20px;
+    overflow: hidden;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgb(1, 1, 117);
+    max-width: fit-content;
+}
+
+.card .card-image{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.list{
+    text-align: left;
+    background-image: linear-gradient(to bottom, rgb(1, 1, 117) ,rgb(193, 209, 243));
+    margin: 0;
+    padding: 40px 40px 16px;
+    box-sizing: border-box;
+    
+}
+
+.button{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.button a,
+.button a:visited,
+.button a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(179, 115, 239);
+}
