@@ -6,6 +6,7 @@ import { useState } from "react";
 import ColorPicker from "./ColorPicker";
 import Counter from "./Counter";
 import { Route, Routes } from "react-router-dom";
+import ToDo from "./ToDo";
 
 function HomePage({ cardColor, setCardColor }) {
     return (
@@ -31,6 +32,7 @@ function App(){
         <Routes>
             <Route path="/" element={<HomePage cardColor={cardColor} setCardColor={setCardColor} />} />
             <Route path="/counter" element={<Counter />} />
+            <Route path="/ToDo" element={<ToDo />} />
         </Routes>
     );
 }

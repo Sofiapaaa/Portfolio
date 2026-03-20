@@ -28,6 +28,9 @@
 }
 
 .button{
+    min-width: 20%;
+    max-width: 20%;
+    text-align: center;
     background-color: blueviolet;
     border: none;
     border-radius: 5px;
@@ -36,7 +39,8 @@
     cursor: pointer;
     color: white;
     display: inline-block;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
    
 }
 
@@ -97,8 +101,14 @@ body {
 
 .counter-page{
     text-align: center;
+    background-color: #98aeeb;
+    min-height: 100vh;
+    padding-top: 40px;
 }
 .button2{
+    min-width: 20%;
+    max-width: 20%;
+    text-align: center;
     background-color: blueviolet;
     border: none;
     border-radius: 5px;
@@ -107,6 +117,7 @@ body {
     cursor: pointer;
     color: white;
     display: inline-block;
+    text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
 }
@@ -116,4 +127,39 @@ body {
 .button2 a:active{
     text-decoration: none;
     color: white;
+}
+
+.to-do-list{
+    text-align: center;
+}
+
+
+.buttonHome{
+    min-width: 20%;
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+   
+}
+
+.buttonHome a,
+.buttonHome a:visited,
+.buttonHome a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.liste{
+    padding: 0;
 }
